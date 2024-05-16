@@ -80,11 +80,5 @@ Ueda et al. (2024) propose a social media text embedding method to predict finan
    explanation = explain_model(model, data)
    ```
 
-## Contributing
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for more details.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 We would like to thank the authors of the cited studies for their foundational work in this field. Their research has significantly contributed to our project.
