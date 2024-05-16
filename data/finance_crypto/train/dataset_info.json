@@ -1,0 +1,66 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "financial-tweets-crypto",
+  "dataset_size": 14569180,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/StephanAkkerman/financial-tweets-crypto@61b5ec3f7801a0de7092f8c811347c58e1e366a9/crypto.csv": {
+      "num_bytes": 13574077,
+      "checksum": null
+    }
+  },
+  "download_size": 13574077,
+  "features": {
+    "timestamp": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tweet_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tweet_url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tweet_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "price_of_ticker": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "change_of_ticker": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tickers_mentioned": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 28143257,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 14569180,
+      "num_examples": 47567,
+      "dataset_name": "financial-tweets-crypto"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

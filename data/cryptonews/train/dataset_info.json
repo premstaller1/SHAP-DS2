@@ -1,0 +1,70 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "cryptonews-articles-with-price-momentum-labels",
+  "dataset_size": 55067211,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/SahandNZ/cryptonews-articles-with-price-momentum-labels@3200e6f2b9efdbed877341ed82e6a07d6006a246/train.csv": {
+      "num_bytes": 41980427,
+      "checksum": null
+    },
+    "hf://datasets/SahandNZ/cryptonews-articles-with-price-momentum-labels@3200e6f2b9efdbed877341ed82e6a07d6006a246/validation.csv": {
+      "num_bytes": 5503055,
+      "checksum": null
+    },
+    "hf://datasets/SahandNZ/cryptonews-articles-with-price-momentum-labels@3200e6f2b9efdbed877341ed82e6a07d6006a246/test.csv": {
+      "num_bytes": 4878626,
+      "checksum": null
+    }
+  },
+  "download_size": 52362108,
+  "features": {
+    "datetime": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 107429319,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 44144543,
+      "num_examples": 144276,
+      "dataset_name": "cryptonews-articles-with-price-momentum-labels"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 5773541,
+      "num_examples": 18034,
+      "dataset_name": "cryptonews-articles-with-price-momentum-labels"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 5149127,
+      "num_examples": 18035,
+      "dataset_name": "cryptonews-articles-with-price-momentum-labels"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

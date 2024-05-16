@@ -1,0 +1,66 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "financial-tweets-other",
+  "dataset_size": 50427491,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/StephanAkkerman/financial-tweets-other@3b2d419d7012b56ebc1fb814ddab3cf6a87c0400/other.csv": {
+      "num_bytes": 46193019,
+      "checksum": null
+    }
+  },
+  "download_size": 46193019,
+  "features": {
+    "timestamp": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tweet_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tweet_url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tweet_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "price_of_ticker": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "change_of_ticker": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tickers_mentioned": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 96620510,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 50427491,
+      "num_examples": 193169,
+      "dataset_name": "financial-tweets-other"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
