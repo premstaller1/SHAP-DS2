@@ -3,4 +3,4 @@ pandas
 shap
 streamlit
 transformers
-torch==1.10.0
+torch
