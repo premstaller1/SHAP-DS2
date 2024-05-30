@@ -4,3 +4,4 @@ shap
 streamlit
 transformers
 torch
+matplotlib
