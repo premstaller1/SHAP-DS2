@@ -1,3 +1,6 @@
+#Description: This script contains functions to preprocess the data for the SHAP application
+# The details can be found in the notebook where all code is specifically explained.
+
 from sklearn.feature_extraction.text import CountVectorizer
 import nltk 
 import string
