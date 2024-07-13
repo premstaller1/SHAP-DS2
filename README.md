@@ -4,7 +4,7 @@
 
 Github https://github.com/premstaller1/SHAP-DS2
 
-The objective of this project is to implement, apply and compare different mashine learning models based on financial datasets. Additionally, the implementation of SHAP therefore allows to gain a comprehensive understanding of influencing factors and to explore the performance of the models.
+The objective of this project is to implement, apply and compare different mashine learning models (Distilrobera, Cryptobert) based on financial datasets. Additionally, the implementation of SHAP therefore allows to gain a comprehensive understanding of influencing factors and to explore the performance of the models.
 
 ## Research Questions
 
@@ -22,10 +22,10 @@ import pandas as pd
 import sklearn
 import shap
 import numpy as np
-import torch
 import seaborn as sns
 import matplotlib.pyplot as plt
-from transformers import TextClassificationPipeline, AutoModelForSequenceClassification, AutoTokenizer, pipeline
+from transformers import TextClassificationPipeline, AutoModelForSequenceClassification, AutoTokenizer
+from transformers import pipeline
 from datasets import load_dataset
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 ```
